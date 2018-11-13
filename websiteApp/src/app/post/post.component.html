@@ -1,0 +1,28 @@
+ <script src="../../assets/js/post.js"></script>
+ 
+ <div class="ui special cards">
+  <div class="card">
+    <div class="blurring dimmable image">
+      <div class="ui dimmer">
+        <div class="content">
+          <div class="center">
+            <div class="ui inverted button">Read</div>
+          </div>
+        </div>
+      </div>
+      <img [src]="post.thumbnailPath">
+    </div>
+    <div class="content">
+      <a class="header">{{post.title}}</a>
+      <div class="description">
+        {{post.content}}
+      </div>
+    </div>
+    <div class="extra content">
+      <span class="date">added on 18/02/2018</span>
+    </div>
+  </div>
+</div>
+
+
+
