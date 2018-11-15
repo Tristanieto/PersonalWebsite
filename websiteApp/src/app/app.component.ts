@@ -17,6 +17,12 @@ export class AppComponent {
 
     this._posts.push(post1);
     this._posts.push(post2);
+    this._posts.push(post1);
+    this._posts.push(post2);
+    this._posts.push(post1);
+    this._posts.push(post2);        
+
+    
   }
 
 }
